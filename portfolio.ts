@@ -38,7 +38,7 @@ export const skillsSection: SkillsSectionType = {
   data: [
     {
       title: 'Full Stack Developer',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: './lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji('⚡ Building RESTful APIs in SpringBoot & Django REST Framework'),
         emoji('⚡ Building responsive websites using React.js'),
@@ -87,7 +87,7 @@ export const skillsSection: SkillsSectionType = {
     },
     {
       title: 'Cloud Infra-Architecture',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: './lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
         emoji('⚡ Experience of working on multiple cloud platforms'),
         emoji(
@@ -127,7 +127,7 @@ export const skillsSection: SkillsSectionType = {
     },
     {
       title: 'Machine Learning',
-      lottieAnimationFile: '/lottie/skills/ML.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: './lottie/skills/ML.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
           '⚡ Developing Advanced Machine Learning Models using Scikit-Learn'
@@ -179,7 +179,7 @@ export const educationInfo: EducationType[] = [
     duration: 'Auguest 2022 - May 2024',
     desc: '',
     grade: 'GPA 3.88 / 4',
-    companyLogo: '/img/icons/common/uiuc.jpg',
+    companyLogo: './img/icons/common/uiuc.jpg',
     descBullets: [
     ],
   },
@@ -187,7 +187,7 @@ export const educationInfo: EducationType[] = [
     schoolName: 'Jaypee Institute of Information Technology',
     subHeader: 'Bachelors in Electrnoics and Communication',
     duration: 'September 2017 - April 2019',
-    companyLogo: '/img/icons/common/jiit.jpg',
+    companyLogo: './img/icons/common/jiit.jpg',
     desc: '',
     grade: 'GPA 3.8 / 4',
     descBullets: [],
@@ -200,21 +200,21 @@ export const experience: ExperienceType[] = [
   {
     role: 'Software Developer Intern II',
     company: 'Yahoo Inc.',
-    companyLogo: '/img/icons/common/yahoo.jpg',
+    companyLogo: './img/icons/common/yahoo.jpg',
     date: 'Apr 2022 – Jun 2022',
     desc: 'Created a machine learning feature for Yahoo Search, assessing question importance. Using a large language model, I crafted answers. Employing Pig Latin, PySpark, and Python with Apache Hadoop YARN, I extracted HDFS features. This yielded a powerful XGBoost model with 85.21% accuracy. This led to 20% cost savings by prioritizing answers for valuable questions from an 80+ million dataset.',
   },
   {
     role: 'Backend Developer',
     company: 'Geniemode Global Pvt. Ltd.',
-    companyLogo: '/img/icons/common/Geniemode.jpg',
+    companyLogo: './img/icons/common/Geniemode.jpg',
     date: 'Jan 2022 – Mar 2022',
     desc: 'As a backend developer for the GenieMode app, I crafted APIs for seamless website functionality. I introduced features that streamlined order processes, reduced vendor TAT by 20%, and improved new user onboarding, cutting queries by 30%. Leveraging event-driven notifications, I increased client acquisition by 25%. I enhanced system performance by boosting Restful API latency by 30%.',
   },
   {
     role: 'Software Developer (Founding Engineer)',
     company: 'Growth-Spree',
-    companyLogo: '/img/icons/common/growthSpree.jpg',
+    companyLogo: './img/icons/common/growthSpree.jpg',
     date: 'Sept 2021 - Oct 2021',
     desc: "As a Founding Engineer and Software Developer, I led the creation of a proof-of-concept email ID warming website. Solely architecting and developing it with React, Bootstrap, and Django, I achieved a 60% reputation boost for email IDs, validating the warming strategy's effectiveness. I also established version control using Bitbucket for streamlined team collaboration and code maintenance.",
   },
@@ -229,19 +229,19 @@ export const projects: ProjectType[] = [
   },
   {
     name: 'Error Detecting Pen',
-    companyLogo: '/img/icons/common/pen.jpg',
+    companyLogo: './img/icons/common/pen.jpg',
     desc: 'Partnering with a colleague, we developed a pen using gyroscope tech for real-time spell-checking of handwritten text. Employing a pre-trained IAM dataset model, we accurately predicted letters from the input, demonstrating our fusion of technology and practicality.',
 
   },
   {
     name: 'Smart Shopping System Using RFID',
-    companyLogo: '/img/icons/common/cart.jpg',
+    companyLogo: './img/icons/common/cart.jpg',
     desc: 'An IOT based, Bluetooth and RFID enabled system integrated with relational databases to manage the store inventory. Made to eliminate the dependency on sales representatives as well as reduce the T-A-T of a customer in a supermarket',
 
   },
   {
     name: 'Eye Controlled Wheelchair',
-    companyLogo: '/img/icons/common/chair.jpg',
+    companyLogo: './img/icons/common/chair.jpg',
     desc: 'Designed and implemented an Eye controlled wheelchair prototype by applying OpenCV modules and pre-trained classifiers in python',
 
   },
