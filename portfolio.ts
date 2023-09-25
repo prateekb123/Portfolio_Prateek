@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm passionate software developer having an experience of over 2 years in various skills like Python, Java, Django, SpringBoot, AWS and Machine Learning.",
   resumeLink:
-    'https://drive.google.com/file/d/1qsdOKNsQLHfNDU0sDGCH9OnBrdNBEINB/view?usp=sharing',
+    'https://drive.google.com/file/d/1049NexyW53_t-2i45cAoieag_Jwtc9ZQ/view?usp=sharing',
 };
 
 export const openSource = {
