@@ -223,7 +223,7 @@ export const experience: ExperienceType[] = [
 export const projects: ProjectType[] = [
   {
     name: 'Monte Carlo Simulation to Derive Landing Distance for a Flight',
-    companyLogo: '/img/icons/common/plane.jpg',
+    companyLogo: './img/icons/common/plane.jpg',
     desc: ' Simulated emergency landing scenarios along flight paths to calculate landing distances. Through analysis, I confirmed that under dynamic flight conditions, the availability of accessible airports decreased by 15%, supporting the hypothesis.',
     github: 'https://github.com/prateekb123/monte-carlo-simulation',
   },
