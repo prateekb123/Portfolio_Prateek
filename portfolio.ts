@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   description:
     "A passionate software developer, your fellow coder, and a proud tech geek. Let's chat about all things tech and explore the latest innovations together. Keep scrolling to discover more about me.",
   resumeLink:
-    'https://drive.google.com/file/d/1049NexyW53_t-2i45cAoieag_Jwtc9ZQ/view?usp=sharing',
+    'https://drive.google.com/file/d/1xa6r5uWF5XjVXifvjoP1frW98mDHo1fm/view?usp=drive_link',
 };
 
 export const openSource = {
@@ -200,16 +200,23 @@ export const experience: ExperienceType[] = [
   {
     role: 'Software Engineer Intern',
     company: 'Country Financial',
-    companyLogo: './img/icons/common/country.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'Underwriting Digest Website - POC: \n Developing an Angular/Ionic-Spring Boot Underwriting Digest POC, enhancing transaction tracking efficiency by 30%. \n\n Automate Vulnerability Metrics: \n Lead a team to develop a Python automation script, streamlining vulnerability data processing, cutting manual effort by 80%',
+    companyLogo: './img/icons/common/country.png',
+    date: 'Jan 2024 – Present',
+    desc: 'Developing an Angular/Ionic-Spring Boot Underwriting Digest POC, enhancing transaction tracking efficiency by 30%. Also leading a team to develop a Python automation script, streamlining vulnerability data processing, cutting manual effort by 80%',
   },
   {
     role: 'Software Engineer Intern II',
     company: 'Yahoo Inc.',
     companyLogo: './img/icons/common/yahoo.jpg',
-    date: 'Apr 2022 – Jun 2022',
+    date: 'May 2023 – Aug 2023',
     desc: 'Created a machine learning feature for Yahoo Search, assessing question importance. Using a large language model, I crafted answers. Employing Pig Latin, PySpark, and Python with Apache Hadoop YARN, I extracted HDFS features. This yielded a powerful XGBoost model with 85.21% accuracy. This led to 20% cost savings by prioritizing answers for valuable questions from an 80+ million dataset.',
+  },
+  {
+    role: 'Software Engineer Intern',
+    company: 'University of Illinois Urbana Champaign',
+    companyLogo: './img/icons/common/Uiuc.png',
+    date: 'Sep 2022 – May 2023',
+    desc: 'Pioneered a React Django full-stack solution for underprivileged girls by integrating Twilio API within Django to automate calls. Optimized call strategies using React dashboard insights, driving a 25% surge in call response rates.',
   },
   {
     role: 'Software Engineer',
