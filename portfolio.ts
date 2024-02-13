@@ -14,7 +14,7 @@ export const greetings: GreetingsType = {
   name: 'Prateek Bansal',
   title: "Hi all, I'm Prateek",
   description:
-    "I'm passionate software developer having an experience of over 2 years in various skills like Python, Java, Django, SpringBoot, AWS and Machine Learning.",
+    "A passionate software developer, your fellow coder, and a proud tech geek. Let's chat about all things tech and explore the latest innovations together. Keep scrolling to discover more about me.",
   resumeLink:
     'https://drive.google.com/file/d/1049NexyW53_t-2i45cAoieag_Jwtc9ZQ/view?usp=sharing',
 };
@@ -178,7 +178,7 @@ export const educationInfo: EducationType[] = [
     subHeader: 'Master of Science in Information Management',
     duration: 'Auguest 2022 - May 2024',
     desc: '',
-    grade: 'GPA 3.88 / 4',
+    grade: 'GPA 3.92 / 4',
     companyLogo: './img/icons/common/uiuc.jpg',
     descBullets: [
     ],
@@ -189,7 +189,7 @@ export const educationInfo: EducationType[] = [
     duration: 'September 2017 - April 2019',
     companyLogo: './img/icons/common/jiit.jpg',
     desc: '',
-    grade: 'GPA 3.8 / 4',
+    grade: 'GPA 3.5 / 4',
     descBullets: [],
   },
 
@@ -198,21 +198,28 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Software Developer Intern II',
+    role: 'Software Engineer Intern',
+    company: 'Country Financial',
+    companyLogo: './img/icons/common/country.jpg',
+    date: 'Apr 2022 – Jun 2022',
+    desc: 'Underwriting Digest Website - POC: \n Developing an Angular/Ionic-Spring Boot Underwriting Digest POC, enhancing transaction tracking efficiency by 30%. \n\n Automate Vulnerability Metrics: \n Lead a team to develop a Python automation script, streamlining vulnerability data processing, cutting manual effort by 80%',
+  },
+  {
+    role: 'Software Engineer Intern II',
     company: 'Yahoo Inc.',
     companyLogo: './img/icons/common/yahoo.jpg',
     date: 'Apr 2022 – Jun 2022',
     desc: 'Created a machine learning feature for Yahoo Search, assessing question importance. Using a large language model, I crafted answers. Employing Pig Latin, PySpark, and Python with Apache Hadoop YARN, I extracted HDFS features. This yielded a powerful XGBoost model with 85.21% accuracy. This led to 20% cost savings by prioritizing answers for valuable questions from an 80+ million dataset.',
   },
   {
-    role: 'Backend Developer',
+    role: 'Software Engineer',
     company: 'Geniemode Global Pvt. Ltd.',
     companyLogo: './img/icons/common/Geniemode.jpg',
     date: 'Jan 2022 – Mar 2022',
     desc: 'As a backend developer for the GenieMode app, I crafted APIs for seamless website functionality. I introduced features that streamlined order processes, reduced vendor TAT by 20%, and improved new user onboarding, cutting queries by 30%. Leveraging event-driven notifications, I increased client acquisition by 25%. I enhanced system performance by boosting Restful API latency by 30%.',
   },
   {
-    role: 'Software Developer (Founding Engineer)',
+    role: 'Software Engineer (Founding Engineer)',
     company: 'Growth-Spree',
     companyLogo: './img/icons/common/growthSpree.jpg',
     date: 'Sept 2021 - Oct 2021',
@@ -221,6 +228,12 @@ export const experience: ExperienceType[] = [
 ];
 
 export const projects: ProjectType[] = [
+  {
+    name: 'Football Scores Website for Database Performance Evaluation',
+    companyLogo: './img/icons/common/gamepoint.png',
+    desc: 'Engineered a fullstack website using Django, JavaScript and AWS EC2 to evaluate performance of Cassandra vs PostgreSQL databases',
+    github: 'https://github.com/MandarParkar/DBA-Project',
+  },
   {
     name: 'Monte Carlo Simulation to Derive Landing Distance for a Flight',
     companyLogo: './img/icons/common/plane.jpg',
