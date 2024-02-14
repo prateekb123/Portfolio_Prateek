@@ -29,7 +29,7 @@ export const socialLinks: SocialLinksType = {
   url: '',
   linkedin: 'https://www.linkedin.com/in/prateek-bansal-a44829172',
   github: 'https://github.com/prateekb123',
-  gmail: 'p.bansal6@illinois.edu'
+  gmail: 'pbansal6@illinois.edu'
 };
 
 export const skillsSection: SkillsSectionType = {
